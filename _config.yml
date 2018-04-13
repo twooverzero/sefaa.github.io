@@ -20,8 +20,8 @@ title                    : "SEFA"
 title_separator          : "-"
 name                     : "Subsea Engineering and Flow Assurance Lab"
 description              : "SEFA, Dept. of Naval Architecture and Ocean Engineering, Seoul National University"
-url                      : "https://twooverzero.github.io/sefa.github.io/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://twooverzero.github.io"
+baseurl                  : "/sefa.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "twooverzero.github.io/sefa.github.io/"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -52,7 +52,7 @@ staticman:
     date:
       type               : "date"
       options:
-        format           : "iso8601" #(default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601" #"iso8601"(default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -90,17 +90,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : #false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "SEFA Lab"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Seoul National University"
+  location         : "Room 203, Bld 36"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
