@@ -45,6 +45,7 @@
   -webkit-box-align: center;
   align-items: center;
   font-weight: bold;
+  font-size: $type-size-3;
   z-index: 20;
 }
 
@@ -54,7 +55,7 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-
+  font-size: $type-size-6;
   .site-nav {
     margin-left: 0;
 
