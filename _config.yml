@@ -90,7 +90,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : #false (default), "google", "google-universal", "custom"
+  provider               : flase #false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -132,7 +132,6 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - ["_pages"]
   - _pages
 exclude:
   - "*.sublime-project"
@@ -158,8 +157,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -256,21 +253,10 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: # true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      arthor_profile: true
+      arthor_profile: false
