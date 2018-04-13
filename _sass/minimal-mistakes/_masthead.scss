@@ -5,6 +5,7 @@
 .masthead {
   position: relative;
   border-bottom: 1px solid $border-color;
+  height : 70px;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
@@ -15,7 +16,6 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
     max-width: 100%;
     display: -webkit-box;
     display: flex;
