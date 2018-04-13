@@ -12,19 +12,19 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "SEFA"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Subsea Engineering and Flow Assurance Lab"
 description              : "SEFA, Dept. of Naval Architecture and Ocean Engineering, Seoul National University"
 url                      : "https://twooverzero.github.io"
 baseurl                  : "/sefa.github.io" # the subpath of your site, e.g. "/blog"
-repository               : "twooverzero.github.io/sefa.github.io/"
+repository               : "twooverzero.github.io/sefa.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -50,9 +50,9 @@ staticman:
     email                : # "md5"
   generatedFields:
     date:
-      type               : "date"
+      type               : #"date"
       options:
-        format           : "iso8601" #"iso8601"(default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : #"iso8601" #"iso8601"(default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
   siteKey                :
   secret                 :
