@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Introduction"
+  - title: "About"
     url: /about/
-  - title: "Peoples"
-    url: /peoples/
-  - title: "Publications"
-    url: /publications/
+  - title: "People"
+    url: /people/
+  - title: "Publication"
+    url: /publication/
   - title: "Contact"
     url: /contact/
