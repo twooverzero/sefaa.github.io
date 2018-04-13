@@ -55,6 +55,12 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  font-weight: bold;
+}
+
+.page__footer-contact {
+  font-family: $global-font-family;
+  font-size: $type-size-7;
 }
 
 .page__footer-follow {
