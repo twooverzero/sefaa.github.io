@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "SEFA"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Subsea Engineering and Flow Assurance Lab"
+description              : "SEFA, Dept. of Naval Architecture and Ocean Engineering, Seoul National University"
+url                      : "https://twooverzero.github.io/sefa.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "twooverzero.github.io/sefa.github.io/"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -50,9 +50,9 @@ staticman:
     email                : # "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -90,7 +90,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -261,7 +261,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
