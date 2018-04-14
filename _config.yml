@@ -21,8 +21,8 @@ title_separator          : "|"
 name                     : "Subsea Engineering and Flow Assurance Lab"
 description              : "SEFA, Dept. of Naval Architecture and Ocean Engineering, Seoul National University"
 url                      : https://twooverzero.github.io
-baseurl                  : "/sefa.github.io" # the subpath of your site, e.g. "/blog"
-repository               : "twooverzero/sefa.github.io"
+baseurl                  : "/twooverzero.github.io" # the subpath of your site, e.g. "/blog"
+repository               : "twooverzero/twooverzero.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
